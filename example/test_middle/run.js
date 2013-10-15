@@ -1,4 +1,4 @@
-var App = require('../index.js').App;
+var App = require('../../index.js').App;
 var app = new App();
 
 app.use(require('./middle01.js'));

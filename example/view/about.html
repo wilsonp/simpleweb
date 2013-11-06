@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+    <head>
+        <title>locals.title</title>
+    </head>
+    <body>
+        <p>About me:</p>
+        <table border=1>
+        <% locals.info.forEach(function(r){%>
+            <tr>
+                <td><%=r[0]%></td>
+                <td><%=r[1]%></td>
+            </tr>
+        <% }) %>
+        </table>
+    </body>
+</html>

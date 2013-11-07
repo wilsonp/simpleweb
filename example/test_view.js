@@ -5,6 +5,7 @@ var fk = require('../index.js'),
 
 app.use(view(__dirname + '/view'));
 app.get('/',function(req,res){
+	console.log(req.headers);
 	res.view('index.html',{title:'test view',name:'wilson'});
 });
 

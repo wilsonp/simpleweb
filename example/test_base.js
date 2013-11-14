@@ -1,7 +1,6 @@
-var req = {};
+var querystring = require('querystring');
+var req = 'loginname=admin&password=admin';
 //req.sessionId = 'xxx';
-if(req.sessionId = 'xxx'){
-	console.log(req.sessionId = 'xxx');
-}else{
-	console.log('error');
-}
+var obj = querystring.parse(req);
+console.log(obj);
+

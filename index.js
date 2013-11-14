@@ -6,6 +6,7 @@ var postbin = require('./lib/post_binary.js');
 var download = require('./lib/download.js');
 var view = require('./lib/view.js');
 var session = require('./lib/session.js');
+var redirect = require('./lib/redirect.js');
 
 exports.static = static;
 exports.App = App;
@@ -15,3 +16,4 @@ exports.postbin = postbin;
 exports.download = download;
 exports.view = view;
 exports.session = session;
+exports.redirect = redirect;
